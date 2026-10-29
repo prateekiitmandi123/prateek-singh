@@ -26,7 +26,7 @@
   --foreground: var(--ink);
 }
 
-@theme inline {
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-forest: var(--forest);
@@ -54,7 +54,6 @@
   --font-script: var(--font-caveat);
   --font-display: var(--font-oswald);
 }
-
 * {
   border-color: var(--line);
 }
