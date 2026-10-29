@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getSession } from "@/lib/auth";
 import { getStore } from "@/lib/store";
 
-export const instant = false;
+
 
 export default async function AdminArticlesPage() {
   const [store, user] = await Promise.all([getStore(), getSession()]);
