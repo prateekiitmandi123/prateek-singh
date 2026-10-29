@@ -6,7 +6,7 @@ import { PageHero } from "@/components/layout/PageHero";
 import { articleKinds, categories } from "@/data/site";
 import { getAuthorMap, searchArticles } from "@/lib/queries";
 
-export const instant = false;
+
 
 export const metadata: Metadata = {
   title: "Articles",
