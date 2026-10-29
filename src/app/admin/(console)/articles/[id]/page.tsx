@@ -3,7 +3,7 @@ import { ArticleEditor } from "@/components/admin/ArticleEditor";
 import { canPublish, getSession } from "@/lib/auth";
 import { getStore } from "@/lib/store";
 
-export const instant = false;
+
 
 export default async function EditArticlePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
