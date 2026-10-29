@@ -2,7 +2,7 @@ import { ArticleEditor } from "@/components/admin/ArticleEditor";
 import { canPublish, getSession } from "@/lib/auth";
 import { getStore } from "@/lib/store";
 
-export const instant = false;
+
 
 export default async function NewArticlePage() {
   const [store, user] = await Promise.all([getStore(), getSession()]);
