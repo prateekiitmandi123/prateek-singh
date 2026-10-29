@@ -7,7 +7,7 @@ import { HomeHero } from "@/components/home/HomeHero";
 import { HomeIntro } from "@/components/home/HomeIntro";
 import { getPublishedArticles } from "@/lib/queries";
 
-export const instant = false;
+
 
 export default async function Home() {
   const articles = await getPublishedArticles();
